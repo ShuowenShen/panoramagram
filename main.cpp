@@ -13,7 +13,7 @@ using namespace cv;
 
 /** Global variables */
 String face_cascade_name = "/Users/sysc1234/macports/share/OpenCV/haarcascades/haarcascade_frontalface_alt.xml";
-Mat para = imread("/Users/sysc1234/Desktop/008.jpg",CV_LOAD_IMAGE_COLOR);
+Mat para = imread("/Users/sysc1234/Desktop/008.jpg",CV_LOAD_IMAGE_COLOR);  //path to image
 CascadeClassifier face_cascade;
 string window_name = "Capture - Face detection";
 string window_name2 = "Para";
